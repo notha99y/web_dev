@@ -1,0 +1,13 @@
+name: ndoc_app
+channels:
+  - default
+  - conda-forge
+dependencies:
+  - python=3.6
+  - pip
+  - pip:
+    - flask
+    - flask-wtf
+    - flask-sqlalchemy
+    - flask-migrate
+    - flask-login
